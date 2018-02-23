@@ -9,6 +9,15 @@ What does this spider specifacally do?
 - Write crawled results in csv file
 
 
+To run this spider run:
+- For csv format: scrapy crawl jobs -o jobs.csv -t csv 
+- For JL fomat: scrapt crawl jobs -o jobs.jl
+
+
+I find these tutorials good ones to start with
+- https://www.youtube.com/watch?v=4I6Xg6Y17qs&list=PLRYJevdS4CBV1QTNm9UBXbg7mizpkQbjT
+- https://www.youtube.com/watch?v=758KrjCgkN8&list=PL51BA5190961CFEE3
+
 ToDo:
 - Invest more time on Scrapy Framework and its concepts like pipelines and extractors
 - Read Scrapy's documentation
